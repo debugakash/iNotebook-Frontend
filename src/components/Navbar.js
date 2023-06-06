@@ -14,7 +14,7 @@ const Navbar = (props) => {
     return (
         <nav className="navbar navbar-expand-lg fixed-top shadow navbar-dark bg-dark">
             <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/" >iNotebook</NavLink>
+                <NavLink className="navbar-brand" to="/" >iNotes</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i onClick={showMenuHandler} className={showMenu ? "fas fa-times" : "fas fa-bars"} />
                     {/* <span className="navbar-toggler-icon"></span> */}
